@@ -1,0 +1,20 @@
+{
+  "name": "zenwaterart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajwehunt/zenwaterart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajwehunt/zenwaterart/issues"
+  },
+  "homepage": "https://github.com/ajwehunt/zenwaterart#readme"
+}

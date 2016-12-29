@@ -1,0 +1,109 @@
+.main-wrapper {
+  display: flex;
+  background: url("../img/background.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.main-wrapper ui-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*///////Welcome CSS/////////*/
+
+.welcome {
+  display: flex;
+  height: 350px;
+  width: 350px;
+  background: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 35px;
+  cursor: pointer;
+
+}
+
+.welcome h1 {
+  font-size: 45px;
+  color:#4F303E;
+  margin: 24px;
+}
+
+.lotus {
+  background: url("../img/lotus.png");
+  width: 214px;
+  height: 174px;
+  margin-bottom: 15px;
+}
+
+/*///////Main View CSS/////////*/
+
+#sketch {
+  height: 60vh;
+  width: 75vw;
+  margin-bottom: 23px;
+}
+
+#paint {
+  cursor: crosshair;
+  border: 12px solid #39202f;
+  background: #fbfbfb;
+}
+
+#paintWrap {
+  position: absolute;
+  box-shadow: inset -4px 8px 25px -8px rgba(0,0,0,1);
+  pointer-events: none;
+  border: 12px solid #39202f;
+  background: rgba(227,227,227, 0.15);
+}
+
+.stand {
+  background: url("../img/stand.png") no-repeat;
+  width: 700px;
+  height: 203px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.brush-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 575px;
+  height: 15px;
+  padding-top: 10px;
+  padding-right: 35px;
+}
+
+.brush-buttons div {
+  cursor: pointer;
+}
+
+/*//////////////////////*/
+/*//////////////////////////*/
+
+.about {
+  display: flex;
+  height: 250px;
+  width: 250px;
+  background: #ffffff;
+  flex-direction: column;
+  /*align-items: center;*/
+  text-align: center;
+  border-radius: 35px;
+  cursor: pointer;
+  padding: 10px;
+
+}
+
+.about h1 {
+  font-size: 40px;
+  color:#4F303E;
+  margin-bottom: 25px;
+}
