@@ -3,8 +3,8 @@ var cors = require('cors');
 var bodyParser = require('body-parser');
 var massive = require('massive');
 var config = require('./config')
-var connectionString = 'postgres://postgres:@localhost/pizzadb';
-// var connectionString = config.connectionString;
+// var connectionString = 'postgres://postgres:@localhost/zenwaterart';
+var connectionString = config.connectionString;
 
 var app = express();
 module.exports = app;
